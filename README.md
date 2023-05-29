@@ -1,3 +1,9 @@
+<p align="center">
+<img src="https://github.com/gbrandtio/rw-debouncer/assets/72696535/d43014b6-43ec-4744-a6c1-8af6d4ccf28b" style="width: 50%;"/>
+</p>
+
+## About
+
 `rw_debouncer` provides a simple yet concrete implementation that will allow expanding any function
 with the ability of debouncing.
 
