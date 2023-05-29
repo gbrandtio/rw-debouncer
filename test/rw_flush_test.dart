@@ -29,5 +29,12 @@ void main() {
       expect(firstResult, 1);
       expect(secondResult, 2);
     });
+
+    test('Flushing without any active debouncing will throw an error',
+        () async {
+      RwDebouncer<int> rwDebouncerOne =
+          RwDebouncer("a123", () => simpleDebounceTest(), debouncingTimeout);
+      expect(() => rwDebouncerOne.flush(), throwsException);
+    });
   });
 }
