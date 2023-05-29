@@ -1,12 +1,11 @@
 name: rw_debouncer
-description: A starting point for Dart libraries or applications.
+description: A lightweight and efficient debouncing library for dart.
 version: 1.0.0
-# repository: https://github.com/my_org/my_repo
+repository: https://github.com/gbrandtio/rw-debouncer
 
 environment:
-  sdk: '>=2.19.4 <3.0.0'
+  sdk: '>=2.19.4 <4.0.0'
 
-# Add regular dependencies here.
 dependencies:
   # path: ^1.8.0
 
