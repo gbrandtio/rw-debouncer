@@ -42,4 +42,4 @@ debouncer.clearDebouncedInvocations();
 
 ## Additional information
 
-Please file any issues on the [github issue tracker](https://github.com/gbrandtio/rw-debouncer/issues);
+Please file any issues on the [github issue tracker](https://github.com/gbrandtio/rw-debouncer/issues).
