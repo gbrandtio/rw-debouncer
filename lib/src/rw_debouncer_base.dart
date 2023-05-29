@@ -69,11 +69,16 @@ class RwDebouncer<T> extends RwDebouncerImpl<T> {
 
   @override
   T flush() {
-    if (RwDebouncerImpl.debouncingOperationsMemento.isNotEmpty) {
-      cancelDebouncedInvocation(super.trackingId);
-      return super.debouncedFn();
+    try {
+      if (RwDebouncerImpl.debouncingOperationsMemento.isNotEmpty) {
+        cancelDebouncedInvocation(super.trackingId);
+        return super.debouncedFn();
+      }
+    }
+    catch (e) {
+      //
     }
 
-    throw Error();
+    throw Exception();
   }
 }
