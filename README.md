@@ -4,7 +4,7 @@
 
 ## About
 
-`rw_debouncer` provides a simple yet concrete implementation that will allow expanding any function
+`rw_debouncer` provides a simple yet concrete implementation that will allow extending any function
 with the ability of debouncing.
 
 ## Features
