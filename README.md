@@ -1,6 +1,11 @@
 <p align="center">
 <img src="https://github.com/gbrandtio/rw-debouncer/assets/72696535/d43014b6-43ec-4744-a6c1-8af6d4ccf28b" style="width: 50%;"/>
 </p>
+<p align="center">
+  <img src="https://github.com/gbrandtio/rw-git/actions/workflows/coverage.yml/badge.svg"/>
+  <a href="https://codecov.io/gh/gbrandtio/rw-git" ><img src="https://codecov.io/gh/gbrandtio/rw-debouncer/branch/main/graph/badge.svg?token=ETZPSI51EH"/></a>
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/license-MIT-purple.svg" alt="License: MIT"></a>
+</p>
 
 ## About
 
