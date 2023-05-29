@@ -14,29 +14,25 @@ Add the dependency on pubspec.yaml:
 `rw_debouncer: 1.0.0`
 
 ## Usage
-
+Instantiate a new RwDebouncer object:
 ```
-// Instantiate a new RwDebouncer.
 var debouncer =  RwDebouncer<String>('ABC123', () => 'Hello', smallDebouncingTimeout);
 ```
-
+Start debouncing:
 ```
-// Start debouncing.
 var result = await debouncer.debounce();
 ```
 
+Execute the operation associated with the debouncer instance immediately:
 ```
-// Execute the operation associated with the debouncer isntance immediately.
 var result = debouncer.flush();
 ```
-
+Cancel the debouncing operation with tracking id 'ABC123':
 ```
-// Cancel the debouncing operation with tracking id 'ABC123'.
 debouncer.cancelDebouncedInvocation('ABC123');
 ```
-
+Clear all the debounced operations, associated with any of the debounced objects:
 ```
-// Clear all the debounced operations, associated with any of the debounced objects.
 debouncer.clearDebouncedInvocations();
 ```
 
