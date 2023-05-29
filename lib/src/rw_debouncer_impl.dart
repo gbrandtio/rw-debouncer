@@ -113,8 +113,8 @@ abstract class RwDebouncerImpl<T> {
   /// myDebouncer.clear();
   /// ```
   void clearDebouncedInvocations() {
-    for (int i = 0; i < debouncingOperationsMemento.length; i++) {
-      debouncingOperationsMemento[i]?.cancel();
+    for (var element in debouncingOperationsMemento.keys) {
+      debouncingOperationsMemento[element]?.cancel();
     }
     debouncingOperationsMemento.clear();
   }
