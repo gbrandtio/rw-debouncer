@@ -74,8 +74,7 @@ class RwDebouncer<T> extends RwDebouncerImpl<T> {
         cancelDebouncedInvocation(super.trackingId);
         return super.debouncedFn();
       }
-    }
-    catch (e) {
+    } catch (e) {
       //
     }
 
