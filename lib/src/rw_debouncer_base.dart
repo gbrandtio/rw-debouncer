@@ -75,7 +75,7 @@ class RwDebouncer<T> extends RwDebouncerImpl<T> {
         return super.debouncedFn();
       }
     } catch (e) {
-      //
+      // Swallow the exception here - a generic exception is thrown afterwards.
     }
 
     throw Exception();

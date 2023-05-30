@@ -1,6 +1,4 @@
-/// Support for doing something awesome.
-///
-/// More dartdocs go here.
+/// A lightweight library for debouncing common operations support.
 library;
 
 export 'src/rw_debouncer_base.dart';
